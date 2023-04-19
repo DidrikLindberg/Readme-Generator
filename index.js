@@ -66,10 +66,19 @@ const generateMarkdown = require('./utils/generateMarkdown');
     })
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err =>{
+        err? console.error(err):console.log("Your README has been created")
+    })
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((data) =>{
+        console.log(typeof data)
+        writeToFile("newREADME.md", generateMarkdown(data))
+    })
+}
 
 // Function call to initialize app
 init();
