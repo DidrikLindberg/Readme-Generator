@@ -2,6 +2,11 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+const renderLicenseBadge = require('./utils/generateMarkdown');
+const license = require('./utils/generateMarkdown');
+
+
+
 
 
 // TODO: Create an array of questions for user input
@@ -73,12 +78,7 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {
-    inquirer.prompt(questions).then((data) =>{
-        console.log(typeof data)
-        writeToFile("newREADME.md", generateMarkdown(data))
-    })
-}
+function init() {}
 
 // Function call to initialize app
 init();
