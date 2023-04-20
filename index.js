@@ -29,9 +29,9 @@ const license = require('./utils/generateMarkdown');
             name: 'description'
         },
         {
-        type: 'input',
-        message: "What are the installation instructions for your project?",
-        name: 'installation'
+            type: 'input',
+            message: "What are the installation instructions for your project?",
+            name: 'installation'
         },
         {
             type: 'input',

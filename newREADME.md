@@ -1,7 +1,7 @@
-# test
+# Readme-Generator
 
   ## Description
-  test
+  Readme Generator 
 
   ## Table of Contents
   * [Installation](#installation)
@@ -17,24 +17,22 @@
   * [Questions](#questions)
 
   ## Installation
-  test
+  npm i
 
   ## Usage
-  test
+  node index.js
 
   ## License
-  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-  [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
-  This project is licensed under the Apache 2.0 License
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  [MIT License](https://opensource.org/licenses/MIT)
+  This project is licensed under the MIT License
 
   ## Contributing
-  test
+  N/A
 
   ## Tests
-  test
+  N/A
 
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at test. You can find more of my work at [didriklindberg](
-
-
-  )
+  If you have any questions about the repo, open an issue or [contact me directly at](mailto:lindberg.didrik@gmail.com). You can find more of my work at https://github.com/[DidrikLindberg]
+  
