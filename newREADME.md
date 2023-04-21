@@ -17,10 +17,10 @@
   * [Questions](#questions)
 
   ## Installation
-  run "npm i" in your integrated terminal
+  run "npm i" in the intetgrated terminal
 
   ## Usage
-  To generate a customizable professional README
+  to generate a customizable README file efficiently
 
   ## License
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -34,5 +34,5 @@
   N/A
 
   ## Questions
-  If you have any questions about the repo, open an issue or [contact me directly](mailto:lindberg.didrik@gmail.com). You can find more of my work at https://github.com/Didriklindberg
+  If you have any questions about the repo, open an issue or [contact me directly](mailto:lindberg.didrik@gmail.com). You can find more of my work at https://github.com/DidrikLindberg
   
