@@ -1,7 +1,7 @@
 # Readme-Generator
 
   ## Description
-  Readme Generator 
+  This software tool creates a well-structured README by leveraging the inquirer package to gather user inputs. The input data is then processed and transformed into a README markdown file that follows the conventions of a good README structure.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -17,10 +17,10 @@
   * [Questions](#questions)
 
   ## Installation
-  npm i
+  run "npm i" in your integrated terminal
 
   ## Usage
-  node index.js
+  To generate a customizable professional README
 
   ## License
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -34,5 +34,5 @@
   N/A
 
   ## Questions
-  If you have any questions about the repo, open an issue or [contact me directly at](mailto:lindberg.didrik@gmail.com). You can find more of my work at https://github.com/[DidrikLindberg]
+  If you have any questions about the repo, open an issue or [contact me directly](mailto:lindberg.didrik@gmail.com). You can find more of my work at https://github.com/Didriklindberg
   

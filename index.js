@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
@@ -6,11 +6,7 @@ const renderLicenseBadge = require('./utils/generateMarkdown');
 const license = require('./utils/generateMarkdown');
 
 
-
-
-
-// TODO: Create an array of questions for user input
-// const questions = [];
+// This is the array of questions that will be asked to the user
  inquirer
     .prompt([
         {
@@ -61,6 +57,7 @@ const license = require('./utils/generateMarkdown');
         }
     ])
   
+    // This is the function that will write the README file
     .then((data) =>{
         console.log(typeof data)
         renderLicenseBadge(license);
@@ -70,14 +67,14 @@ const license = require('./utils/generateMarkdown');
         })
     })
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, err =>{
-        err? console.error(err):console.log("Your README has been created")
-    })
-}
 
-// TODO: Create a function to initialize app
+// function writeToFile(fileName, data) {
+//     fs.writeFile(fileName, data, err =>{
+//         err? console.error(err):console.log("Your README has been created")
+//     })
+// }
+
+// function to initialize app
 function init() {}
 
 // Function call to initialize app
