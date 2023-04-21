@@ -53,8 +53,8 @@ function renderLicenseBadge(license) {
 ## Learning Points
 In this project I learned to use Node.js and its packages to create a command-line application that generates a high-quality README file with sections like Description, Installation, Usage, License, Contributing, Tests, and Questions. Added user input prompts and learned to create badges for licenses, link to GitHub profile, and provide contact information.
 
-## Application's Questions
-![questions](/assets/imgs/user%20prompts.jpg)
+## Application's user prompts
+![prompts](/assets/imgs/user%20prompts.jpg)
 
 ## Result
 [newREADME.md](/newREADME.md)
