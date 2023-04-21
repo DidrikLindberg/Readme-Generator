@@ -68,11 +68,6 @@ const license = require('./utils/generateMarkdown');
     })
 
 
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, data, err =>{
-//         err? console.error(err):console.log("Your README has been created")
-//     })
-// }
 
 // function to initialize app
 function init() {}
